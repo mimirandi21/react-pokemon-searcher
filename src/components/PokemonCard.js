@@ -2,6 +2,15 @@ import React from 'react'
 import { Card } from 'semantic-ui-react'
 
 class PokemonCard extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      flipped: false
+    }
+  }
+
+
+
   render() {
     return (
       <Card>
